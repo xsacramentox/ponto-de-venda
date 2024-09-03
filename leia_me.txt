@@ -1,0 +1,7 @@
+Passos para execução do projeto
+
+1 - Instalar JDK 11. (Caso não tenha, baixar aqui: https://adoptium.net/temurin/releases/?version=11)
+2 - Instalar o MySQL (O usuário deverá ser root e a senha root3306. Caso não seja, mudar no arquivo META-INF/persistence.xml)
+3 - Criar um banco(database) chamado pdv no mysql
+4 - Com o terminal cmd ir até o diretorio raiz do projeto e executar: "mvnw clean javafx:run"
+5 - Fazer login (usuario: admin, senha: admin)
